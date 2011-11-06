@@ -31,3 +31,4 @@ for i in a:
  
 del a
 print (sorted(b, cmp=reverse_numeric))
+print "pumpumpum"
