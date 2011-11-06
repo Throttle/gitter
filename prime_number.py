@@ -4,7 +4,9 @@
 
 def reverse_numeric(x, y):
         return y - x
-
+		
+inputCount = int(raw_input("Input count numbers to check:"))
+		
 min = int(raw_input("Input minimal limit:"))
 max = int(raw_input("Input maximal limit:"))
 a = [0] * (max) # �������� ������� � n ����������� ���������
