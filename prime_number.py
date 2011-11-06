@@ -9,7 +9,9 @@ inputCount = int(raw_input("Input count numbers to check:"))
 counter = 0
 checkNumbers = []
 while (counter < inputCount)
-	checkNumbers.append(raw_input("Input number"+str(inputCount)+">>>"))
+	checkNumbers.append(raw_input("Input number"+str(counter)+">>>"))
+	print counter, checkNumbers[counter]
+	counter++
 		
 min = int(raw_input("Input minimal limit:"))
 max = int(raw_input("Input maximal limit:"))
