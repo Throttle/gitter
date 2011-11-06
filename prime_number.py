@@ -6,6 +6,10 @@ def reverse_numeric(x, y):
         return y - x
 		
 inputCount = int(raw_input("Input count numbers to check:"))
+counter = 0
+checkNumbers = []
+while (counter < inputCount)
+	checkNumbers.append(raw_input("Input number"+str(inputCount)+">>>"))
 		
 min = int(raw_input("Input minimal limit:"))
 max = int(raw_input("Input maximal limit:"))
