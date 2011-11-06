@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
+# We are fighting with git
 
 def reverse_numeric(x, y):
         return y - x
