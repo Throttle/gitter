@@ -44,5 +44,9 @@ for i in a:
  
 del a
 print (sorted(b, cmp=reverse_numeric))
-print "pumpumpum"
-print "pampam"
+
+filename = "test.dat"
+FILE = open(filename,"w")
+# Write all the lines at once:
+FILE.writelines(b)
+FILE.close()
